@@ -21,7 +21,7 @@ bot.on('message', message => {
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
-            .addField("__Staff Aide__" , "**Voici les commandes utile pour les __MovingZone__ !** \n /start \n /start-20h00 \n /start-20h15 \n /start-20h30 \n /start-20h45 \n /start-21h00 \n /start-21h15 \n /start-21h30 \n /start-21h45 \n /start-22h00 \n /start-22h15 \n /start-22h30 \n /start-22h45 \n /start-23h00 \n /start-23h15 \n /start-23h30 \n /start-23h45 \n /start-24h00")
+            .addField("__Staff Aide__" , "**Voici les commandes utile pour les __MovingZone__ !** \n → /start \n → /start-20h00 \n → /start-20h15 \n → /start-20h30 \n → /start-20h45 \n → /start-21h00 \n → /start-21h15 \n → /start-21h30 \n → /start-21h45 \n → /start-22h00 \n → /start-22h15 \n → /start-22h30 \n → /start-22h45 \n → /start-23h00 \n → /start-23h15 \n → /start-23h30 \n → /start-23h45 \n → /start-24h00")
             .setFooter("Copyright 2018 © OpTium eSport")
         message.channel.sendEmbed(help_embed);
         //messagechannel
