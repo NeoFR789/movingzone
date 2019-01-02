@@ -21,7 +21,7 @@ bot.on('message', message => {
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
-            .addField("__Staff Aide__" , "**Voici les commandes utile pour les __MovingZone__ !**\n /classement \n /start \n /start-20h00 \n /start-20h15 \n /start-20h30 \n /start-20h45 \n /start-21h00 \n /start-21h15 \n /start-21h30 \n /start-21h45 \n /start-22h00 \n /start-22h15 \n /start-22h30 \n /start-22h45 \n /start-23h00 \n /start-23h15 \n /start-23h30 \n /start-23h45 \n /start-24h00")
+            .addField("__Staff Aide__" , "**Voici les commandes utile pour les __MovingZone__ !**\n /classement \n /start \n /start-18h00 \n /start-18h15 \n /start-18h30 \n /start-18h45 \n /start-19h00 \n /start-19h15 \n /start-19h30 \n /start-19h45 \n /start-20h00 \n /start-20h15 \n /start-20h30 \n /start-20h45 \n /start-21h00 \n /start-21h15 \n /start-21h30 \n /start-21h45 \n /start-22h00 \n /start-22h15 \n /start-22h30 \n /start-22h45 \n /start-23h00 \n /start-23h15 \n /start-23h30 \n /start-23h45 \n /start-24h00")
             .setFooter("Copyright 2018 © OpTium eSport")
         message.channel.sendEmbed(help_embed);
         //messagechannel
@@ -49,6 +49,18 @@ bot.on('message', message => {
             console.log("Commande start demandée !");
         }
 
+    if (message.content === prefix + `start-19h45`){
+    if (message.member.hasPermission("MANAGE_MESSAGES"))
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__MovingZone__" , "La **MovingZone** va bientôt commencer ! Rendez-vous à 19h45 !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+         console.log("Commande Help demandée !");
+    }
+        
+
     if (message.content === prefix + `start-20h00`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
@@ -59,6 +71,39 @@ bot.on('message', message => {
         //messagechannel
         console.log("Commande Help demandée !");
     }
+    if (message.content === prefix + `start-19h30`){
+    if (message.member.hasPermission("MANAGE_MESSAGES"))       
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__MovingZone__" , "La **MovingZone** va bientôt commencer ! Rendez-vous à 19h30 !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+
+        }    
+
+    if (message.content === prefix + `start-19h15`){
+    if (message.member.hasPermission("MANAGE_MESSAGES"))       
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__MovingZone__" , "La **MovingZone** va bientôt commencer ! Rendez-vous à 19h15 !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    }
+
+    if (message.content === prefix + `start-19h00`){
+    if (message.member.hasPermission("MANAGE_MESSAGES"))       
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__MovingZone__" , "La **MovingZone** va bientôt commencer ! Rendez-vous à 19h00 !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+                }
 
     if (message.content === prefix + `start-20h15`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))       
@@ -234,6 +279,64 @@ bot.on('message', message => {
         message.channel.sendEmbed(help_embed);
         //messagechannel
         console.log("Commande Help demandée !");
+    }
+
+    if (message.content === prefix + `start-18h30`){
+    if (message.member.hasPermission("MANAGE_MESSAGES"))
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__MovingZone__" , "La **MovingZone** va bientôt commencer !  Rendez-vous à 18h30 !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    }
+
+        if (message.content === prefix + `start-18h45`){
+        if (message.member.hasPermission("MANAGE_MESSAGES"))
+            var help_embed = new Discord.RichEmbed()
+                .setColor('#C5370A')
+                .addField("__MovingZone__" , "La **MovingZone** va bientôt commencer !  Rendez-vous à 18h45 !")
+                .setFooter("Copyright 2018 © OpTium eSport")
+            message.channel.sendEmbed(help_embed);
+            //messagechannel
+            console.log("Commande Help demandée !");
+
+    }
+
+    if (message.content === prefix + `start-18h15`){
+    if (message.member.hasPermission("MANAGE_MESSAGES"))
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__MovingZone__" , "La **MovingZone** va bientôt commencer !  Rendez-vous à 18h15 !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+
+    }
+
+    if (message.content === prefix + `start-18h00`){
+    if (message.member.hasPermission("MANAGE_MESSAGES"))
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__MovingZone__" , "La **MovingZone** va bientôt commencer !  Rendez-vous à 18h00 !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+
+    }
+
+    if (message.content === prefix + `aide`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Aide aux Joueurs__" , "Vous voulez s'avoir le classement en **MovingZone Ranked** \n      \n __**/**classement !__")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
     }
 
 
