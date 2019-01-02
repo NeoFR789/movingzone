@@ -42,7 +42,7 @@ bot.on('message', message => {
     if (message.content === prefix + `classement`){
             var help_embed = new Discord.RichEmbed()
                 .setColor('#C5370A')
-                .addField("__Classement__" , "__Classement *MovingZone Ranked* !__ \n 1. OpTium Jules | __**29** Points__ \n 2. ADAMIR | __**28** Points__ \n 3. VIZual Azoks | __**17** Points__ \n 4. OpTium Louis | __**16** Points__ \n 5. OpTium_DryGen- | __**8** Points__ \n 6. BOSS-Karai6 | __**5** Points__ \n 7. OpTium Sigma | __**5** Points__ \n 8. VIZual_FlasHH __**4** Points__ \n 9. Crimore | __**4** Points__")
+                .addField("__Classement__" , "__Classement *MovingZone Ranked* !__ \n 1. OpTium Jules | __**29** Points__ \n 2. ADAMIR | __**28** Points__ \n 3. OpTium Louis | __**27** Points__ \n 4. VIZual Azoks | __**17** Points__ \n 5. OpTium_DryGen- | __**8** Points__ \n 6. BOSS-Karai6 | __**5** Points__ \n 7. OpTium Sigma | __**5** Points__ \n 8. VIZual_FlasHH __**4** Points__ \n 9. Crimore | __**4** Points__")
                 .setFooter("Copyright 2018 © OpTium eSport")
             message.channel.sendEmbed(help_embed);
             //messagechannel
