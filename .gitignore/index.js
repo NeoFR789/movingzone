@@ -339,6 +339,28 @@ bot.on('message', message => {
     
     }
 
+    if (message.content === prefix + `ffa`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__FFA__" , "Le **FFA** va bientôt commencer ! Bonne chance à tous !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `ffa-explication`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__FFA__" , "Le **FFA** est un mode de jeu, Free For All, 16 joueurs (ou moins) sont dans une map plus ou moins grande et s'éliminent entre eux !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
 
     if (!message.content.startsWith(prefix)) return;
 
