@@ -331,7 +331,7 @@ bot.on('message', message => {
     if (message.content === prefix + `aide`){
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
-            .addField("__Aide aux Joueurs__" , "Vous voulez s'avoir le classement en **MovingZone Ranked** \n      \n __**/**classement !__")
+            .addField("__Aide aux Joueurs__" , "Vous voulez s'avoir le classement en **MovingZone Ranked** \n      \n __**/**classement !__ \n      \n")
             .setFooter("Copyright 2018 © OpTium eSport")
         message.channel.sendEmbed(help_embed);
         //messagechannel
