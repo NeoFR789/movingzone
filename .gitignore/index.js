@@ -236,4 +236,36 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
+
+    if (!message.content.startsWith(prefix)) return;
+
+    var args = message.content.substring(prefix.length).split(" ");
+
+    switch (args[0].toLowerCase()) {
+        case "rienrien":
+
+        var userCreateDate = message.author.createdAt.toString().split(" ");
+        var msauthor = message.author.id;
+
+        var stats_embed = new Discord.RichEmbed()
+
+        .setColor("#EC1016")
+        .setTitle(`Statistiques de l'utilisateur : ${message.author.username}`)
+        .addField(`Maintenance ...`, "C'est une commande en cours de développement juste l'id est envoyé !")
+        .addField(`ID de l'utilisateur :id:`, msauthor, true)
+        .setThumbnail(message.author.avatarURL)
+        message.author.send({embed : stats_embed});
+        break;
+                     //CLEAR
+                     case "clear":
+                     if (message.member.hasPermission("MANAGE_MESSAGES")){
+                         message.channel.fetchMessages()
+                             .then(function(list){
+                                 message.channel.bulkDelete(list);
+                             }, function(err){message.channel.send("Erreur")})}
+                     break;
+        
+        
+     }
+
 });
