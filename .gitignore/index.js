@@ -8,7 +8,7 @@ bot.on('ready', () => {
     console.log("En marche !");
 });
 
-bot.login(processs.env.TOKEN);
+bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
     if (message.content === "test"){
