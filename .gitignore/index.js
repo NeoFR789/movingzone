@@ -28,7 +28,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start`){
+    if (message.content === prefix + `start @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
