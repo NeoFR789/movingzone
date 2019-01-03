@@ -8,7 +8,7 @@ bot.on('ready', () => {
     console.log("En marche !");
 });
 
-bot.login(process.env.TOKEN);
+bot.login('NTI5NzcwNjAyMjc0NDg4MzQw.Dw1rSA.-vDinvFJo4mQwqH0sb9ndejlZ-4');
 
 bot.on('message', message => {
     if (message.content === "test"){
@@ -40,14 +40,14 @@ bot.on('message', message => {
     }
 
     if (message.content === prefix + `classement`){
-            var help_embed = new Discord.RichEmbed()
-                .setColor('#C5370A')
-                .addField("__Classement__" , "__Classement *MovingZone Ranked* !__ \n 1. OpTium Jules | __**29** Points__ \n 2. ADAMIR | __**28** Points__ \n 3. OpTium Louis | __**27** Points__ \n 4. VIZual Azoks | __**17** Points__ \n 5. OpTium_DryGen- | __**8** Points__ \n 6. BOSS-Karai6 | __**5** Points__ \n 7. OpTium Sigma | __**5** Points__ \n 8. VIZual_FlasHH __**4** Points__ \n 9. Crimore | __**4** Points__")
-                .setFooter("Copyright 2018 © OpTium eSport")
-            message.channel.sendEmbed(help_embed);
-            //messagechannel
-            console.log("Commande start demandée !");
-        }
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Classement__" , "__Classement *MovingZone Ranked* !__ \n 1. OpTium Louis | __**33** Points__ \n 2. ADAMIR | __**32** Points__ \n 3. OpTium_DryGen- | __**30** Points__ \n 4. OpTium Jules | __**29** Points__ \n 5. VIZual Azoks | __**17** Points_ \n 6. BOSS-Karai6 | __**15** Points__ \n 7. OpTium Sigma | __**11** Points__ \n 8. KZN | __**9** Points__ \n 9. Crimore | __**8** Points__ \n 10. Renegate Slim | __**5** Points__ \n 11. VIZual_FlasHH | __**4** Points__ \n 12. AFB SkYoTix | __**4** Points__")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande classement demandée !");
+    }
 
     if (message.content === prefix + `start-19h45 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
@@ -354,6 +354,17 @@ bot.on('message', message => {
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
             .addField("__FFA__" , "Le **FFA** est un mode de jeu, Free For All, 16 joueurs (ou moins) sont dans une map plus ou moins grande et s'éliminent entre eux !")
+            .setFooter("Copyright 2018 © OpTium eSport")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `l'as de pique`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__L'AS DE PIQUE__" , "L'as de pique et une personne de **haute** importance pour le serveur vous le trouverez dans sa __taverne__ !")
             .setFooter("Copyright 2018 © OpTium eSport")
         message.channel.sendEmbed(help_embed);
         //messagechannel
