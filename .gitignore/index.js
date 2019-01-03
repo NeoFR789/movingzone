@@ -8,7 +8,7 @@ bot.on('ready', () => {
     console.log("En marche !");
 });
 
-bot.login('NTI5NzcwNjAyMjc0NDg4MzQw.Dw1rSA.-vDinvFJo4mQwqH0sb9ndejlZ-4');
+bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
     if (message.content === "test"){
