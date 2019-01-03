@@ -49,7 +49,7 @@ bot.on('message', message => {
             console.log("Commande start demandée !");
         }
 
-    if (message.content === prefix + `start-19h45`){
+    if (message.content === prefix + `start-19h45 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -61,7 +61,7 @@ bot.on('message', message => {
     }
         
 
-    if (message.content === prefix + `start-20h00`){
+    if (message.content === prefix + `start-20h00 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -71,7 +71,7 @@ bot.on('message', message => {
         //messagechannel
         console.log("Commande Help demandée !");
     }
-    if (message.content === prefix + `start-19h30`){
+    if (message.content === prefix + `start-19h30 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))       
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -83,7 +83,7 @@ bot.on('message', message => {
 
         }    
 
-    if (message.content === prefix + `start-19h15`){
+    if (message.content === prefix + `start-19h15 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))       
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -94,7 +94,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-19h00`){
+    if (message.content === prefix + `start-19h00 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))       
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -105,7 +105,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
                 }
 
-    if (message.content === prefix + `start-20h15`){
+    if (message.content === prefix + `start-20h15 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))       
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -116,7 +116,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-20h30`){
+    if (message.content === prefix + `start-20h30 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -127,7 +127,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-20h45`){
+    if (message.content === prefix + `start-20h45 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -138,7 +138,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-21h00`){
+    if (message.content === prefix + `start-21h00 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -149,7 +149,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-21h15`){
+    if (message.content === prefix + `start-21h15 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -160,7 +160,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-21h30`){
+    if (message.content === prefix + `start-21h30 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -171,7 +171,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-21h45`){
+    if (message.content === prefix + `start-21h45 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -182,7 +182,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-22h00`){
+    if (message.content === prefix + `start-22h00 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -193,7 +193,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-22hh15`){
+    if (message.content === prefix + `start-22hh15 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -204,7 +204,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-22h30`){
+    if (message.content === prefix + `start-22h30 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -215,7 +215,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-22h45`){
+    if (message.content === prefix + `start-22h45 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -226,7 +226,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-23h00`){
+    if (message.content === prefix + `start-23h00 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -237,7 +237,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-23h15`){
+    if (message.content === prefix + `start-23h15 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -248,7 +248,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-23h30`){
+    if (message.content === prefix + `start-23h30 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -259,7 +259,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-23h45`){
+    if (message.content === prefix + `start-23h45 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -270,7 +270,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-24h00`){
+    if (message.content === prefix + `start-24h00 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -281,7 +281,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-    if (message.content === prefix + `start-18h30`){
+    if (message.content === prefix + `start-18h30 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -292,7 +292,7 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     }
 
-        if (message.content === prefix + `start-18h45`){
+        if (message.content === prefix + `start-18h45 @MovingZone`){
         if (message.member.hasPermission("MANAGE_MESSAGES"))
             var help_embed = new Discord.RichEmbed()
                 .setColor('#C5370A')
@@ -304,7 +304,7 @@ bot.on('message', message => {
 
     }
 
-    if (message.content === prefix + `start-18h15`){
+    if (message.content === prefix + `start-18h15 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
@@ -316,7 +316,7 @@ bot.on('message', message => {
 
     }
 
-    if (message.content === prefix + `start-18h00`){
+    if (message.content === prefix + `start-18h00 @MovingZone`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
