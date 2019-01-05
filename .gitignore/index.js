@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const client = new Discord.Client();
 
 var bot = new Discord.Client();
 var prefix = ("/");
@@ -6,16 +7,9 @@ var prefix = ("/");
 bot.on('ready', () => {
     bot.user.setPresence({ game: { name: 'Assister la OpTium', type: 0} });
     console.log("En marche !");
-});
 
 bot.login(process.env.TOKEN);
 
-bot.on('message', message => {
-    if (message.content === "test"){
-        message.reply("test");
-        console.log('test');
-        
-    }
 
     if (message.content === prefix + `staff-commande`){
     if (message.member.hasPermission("MANAGE_MESSAGES"))
@@ -371,6 +365,95 @@ bot.on('message', message => {
         console.log("Commande Help demandée !");
     
     }
+
+    if (message.content === prefix + `deso`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Désolé__" , "Je m'excuse de vous avoir dérangez avec mon message 'Menancant', donc je m'en excuse !")
+            .setFooter("Copyright 2018 © Néo Corporation")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `Jules`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Réseaux Sociaux__" , "")
+            .setFooter("Copyright 2018 © Néo Corporation")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `Kylor`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Réseaux Sociaux__" , "__Twitter__ : **@OT_KYLOR**")
+            .setFooter("Copyright 2018 © Néo Corporation")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `Louis`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Réseaux Sociaux__" , "__Twitter__ : **@ProchLouis**")
+            .setFooter("Copyright 2018 © Néo Corporation")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `Nexo`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Réseaux Sociaux__" , "")
+            .setFooter("Copyright 2018 © Néo Corporation")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `TetrisL`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Réseaux Sociaux__" , "__Twitter__ : **@TetrisL**")
+            .setFooter("Copyright 2018 © Néo Corporation")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `Twiins`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField("__Réseaux Sociaux__" , "")
+            .setFooter("Copyright 2018 © Néo Corporation")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
+    if (message.content === prefix + `Souka`){
+        var help_embed = new Discord.RichEmbed()
+            .setColor('#C5370A')
+            .addField(`__"OpTium"__` , "Il ce prétant OpTium mais en réalité il est un simple arnaqeur de compte fortnite.")
+            .setFooter("Copyright 2018 © Néo Corporation")
+        message.channel.sendEmbed(help_embed);
+        //messagechannel
+        console.log("Commande Help demandée !");
+    
+    }
+
 
 
     if (!message.content.startsWith(prefix)) return;
