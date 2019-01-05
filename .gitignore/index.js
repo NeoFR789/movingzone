@@ -394,7 +394,7 @@ bot.on('message', message => {
         break;
                      //CLEAR
                      case "clear":
-                     if (message.member.hasPermission("MANAGE_MESSAGES")){
+                     if (message.member.hasPermission("SPEAK")){
                          message.channel.fetchMessages()
                              .then(function(list){
                                  message.channel.bulkDelete(list);
