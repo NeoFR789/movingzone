@@ -446,7 +446,7 @@ bot.login(process.env.TOKEN);
     if (message.content === prefix + `Souka`){
         var help_embed = new Discord.RichEmbed()
             .setColor('#C5370A')
-            .addField(`__"OpTium"__` , "Il ce prétant OpTium mais en réalité il est un simple arnaqeur de compte fortnite.")
+            .addField("__OpTium__" , "Il ce prétant OpTium mais en réalité il est un simple arnaqeur de compte fortnite.")
             .setFooter("Copyright 2018 © Néo Corporation")
         message.channel.sendEmbed(help_embed);
         //messagechannel
